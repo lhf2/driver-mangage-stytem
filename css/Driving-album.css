@@ -1,0 +1,201 @@
+.main-title{
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+/*main-box*/
+.main-box .main-top{
+    margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.main-box .main-top .main-title1{
+    overflow: hidden;
+    float: left;
+}
+.main-box .main-top .main-title1 .main-title-list{
+    width: 90px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.main-box .main-top .main-title1 .main-title-list.cur{
+    background: #8DC1FD;
+    border: 1px solid #8DC1FD;
+}
+.main-box .main-top .main-title1 .main-title-list:nth-child(1){
+    margin-left: 0!important;
+}
+.main-top .album-add,.main-top .album-add .add-img,.album-add .add-text{
+    float: left;
+}
+.main-top .album-add{
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.album-add .add-img{
+    margin-top: 9px;
+}
+.album-add .add-text{
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+}
+.album-adr{
+    font-size: 12px;
+    color: #333;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.album-box{
+    overflow: hidden;
+    margin-left: 30px;
+}
+.album-box .album-addimg,.album-addimg1{
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.album-addimg1{
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.album-box .album-addimg img,.album-addimg1 img{
+    width: 120px;
+    height: 120px;
+}
+input[type='file']{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.album-box .album-addimg .album-upload,.album-addimg1 .album-upload{
+    text-align: center;
+    color: #666;
+    font-family: 'SimSun';
+    font-size: 14px;
+    margin-top: 10px;
+}
+.album-box1{
+    display: none;
+    width: 730px;
+    float: left;
+}
+.album-box1 .album-list{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+.album-box1 .album-list:nth-child(6){
+    margin-left: 0;
+}
+.album-box1 .album-list .album-list-img{
+    width: 130px;
+    height: 140px;
+}
+.album-box1 .album-list .album-list-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.album-box1 .album-text{
+    overflow: hidden;
+    margin-top: 6px;
+}
+.album-box1 .album-text .set-cover{
+    margin-left: 6px;
+    color: #337ACB;
+}
+.album-box1 .album-text .album-del{
+    color: #FE0100;
+    float: right;
+    margin-right: 6px;
+}
+.main-box{
+    margin-top: 44px;
+    margin-left: 44px;
+}
+.main-box .driving-album{
+    font-size: 18px;
+    color: #333;
+}
+.drialbum-box{
+    width: 780px;
+}
+.drialbum-box .drialbum-list{
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+}
+.drialbum-box .drialbum-list:nth-child(1),.drialbum-box .drialbum-list:nth-child(5){
+    margin-left: 0;
+}
+.drialbum-box .drialbum-list .drialbum-top{
+    padding: 6px;
+    width: 168px;
+    height: 228px;
+    background: #E6E6E6;
+    margin-top: 24px;
+    overflow: hidden;
+}
+.drialbum-box .drialbum-list .drialbum-top .drialbum-1{
+    position: relative;
+}
+.drialbum-box .drialbum-list .drialbum-top .drialbum-1 img{
+    width: 168px;
+    height: 154px;
+    object-fit: cover;
+}
+.drialbum-top .drialbum-1 .modify-cover{
+    width: 60px;
+    height: 20px;
+    background: #fff;
+    border-radius: 8px;
+    color: #666;
+    text-align: center;
+    font-family: 'SimSun';
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    right: 6px;
+    bottom:6px;
+    cursor: pointer;
+}
+.drialbum-2 img,.drialbum-3 img,.drialbum-4 img{
+    width: 54px;
+    height: 70px;
+    cursor: pointer;
+    float: left;
+    object-fit: cover;
+    margin-left: 3px;
+}
+.drialbum-2 img{
+    margin-left: 0!important;
+}
+.drialbum-list .drialbum-text{
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}

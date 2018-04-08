@@ -1,0 +1,121 @@
+.main-title{
+     margin-top: 13px;
+     margin-left: 23px;
+     font-size: 14px;
+ }
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.sch-box{
+    margin-top: 47px;
+    margin-left: 47px;
+}
+.sch-box .sch-title{
+    font-size: 18px;
+    color: #333;
+}
+/*form*/
+form .form-group{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.form-group .form-name{
+    margin-left: 12px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    font-family: 'SimSun';
+    float: left;
+}
+.form-group input[type='text'], .form-group input[type='tel'] {
+    float: left;
+    padding: 0 10px;
+    width: 280px;
+    height: 30px;
+}
+.form-group textarea{
+    width: 480px;
+    height: 200px;
+    border: 1px solid #999999;
+    resize: none;
+}
+.submit-btn{
+    width: 88px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background: #3579cc;
+    text-align: center;
+    line-height: 30px;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.form-group .form-inputout{
+    float: left;
+}
+.form-group .form-inputout .form-inputbox{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.form-group .form-inputout .form-inputbox:nth-child(1){
+    margin-top: 0!important;
+}
+.form-group .form-inputout .form-input1{
+    float: left;
+}
+.form-group .form-inputout .form-input1 span{
+    font-family: 'SimSun';
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+}
+.form-input1 .input-ling{
+    width: 90px!important;
+    height: 30px!important;
+    margin-left: 6px!important;
+    padding: 0!important;
+    outline: none;
+}
+.form-input1 .input-ling1{
+    width: 105px!important;
+    height: 33px!important;
+    padding: 0!important;
+    outline: none;
+    border: 0!important;
+}
+.form-input1 .input-adr{
+    width: 120px;
+    float: left;
+    border: 1px solid #999;
+    margin-left: 6px;
+    position: relative;
+}
+.form-input1 .input-adr .adr-img{
+    position: absolute;
+    top:10px;
+    right:5px;
+}
+.form-group .add-train{
+    overflow: hidden;
+    cursor: pointer;
+}
+.form-group .add-train .add-img,.form-group .add-train .add-text{
+    margin-left: 11px;
+    float: left;
+}
+.form-group .add-train .add-img img{
+    margin-top: 9px;
+}
+.form-group .add-train .add-text{
+    line-height: 30px;
+    color: #333;
+    font-size: 12px;
+    margin-left: 5px!important;
+}

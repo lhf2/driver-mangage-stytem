@@ -1,0 +1,79 @@
+body,html{background: #EFF3F6}
+.top-right{
+    float: right;
+}
+.top-right .logo-detail .logo-tip{
+    display: inline-block;
+    padding: 2px 3px;
+    height: 16px;
+    background: #FDFFFF;
+    border: 1px solid #FF9429;
+    color: #FF9429;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 11px;
+}
+.top-right .logo-detail .logo-name{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 5px;
+}
+.logo-name-out{
+    cursor: pointer;
+}
+.logo-img,.logo-detail{
+    float: left;
+}
+.logo-img img{
+    margin-top: 11px;
+}
+.logo-detail{margin-left: 10px}
+/*main*/
+.main-box{
+    overflow: hidden;
+    width: 1100px;
+    margin:0 auto;
+}
+.main-box .main-left{
+    width: 178px;
+    height: 650px;
+    margin: 20px 0;
+    background: #347ACB;
+    padding-left: 60px;
+    float: left;
+}
+.main-edit .edit-text{
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -31px;
+    padding-top: 5px;
+}
+.edit-text .edit-img img{
+    margin-left: 30px;
+    margin-top:3px;
+}
+.edit-text span:nth-child(2){
+    font-size: 16px;
+    color: #fff;
+    margin-left: 6px;
+}
+.main-edit .edit-list{
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    margin-top:5px;
+}
+.main-edit .edit-list.cur{
+    color: #fff;
+    list-style: disc;
+}
+.main-box .main-right{
+    width: 842px;
+    height:650px;
+    background: #fff;
+    margin: 20px 0;
+    margin-left: 20px;
+    float: left;
+}

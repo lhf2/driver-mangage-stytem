@@ -1,0 +1,102 @@
+/*table*/
+.sale-text,.sale-act{
+    color: #98989B;
+}
+/*form*/
+.form-group .form-name{
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-group .form-name span{
+    margin-right: 3px;
+}
+.input-100,.input-120,.input-42{
+    padding:0 10px;
+    height: 30px;
+}
+.input-100{ width: 80px!important;}
+.input-120{width: 100px!important;}
+.input-42{width: 22px!important;}
+.form-group .choseimg-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    background: #ff932a;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+input[type='file']{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+form .form-group select {
+    width: 64px!important;
+}
+.form-group .cha-box{
+    overflow: hidden;
+}
+.form-group .cha-box .cha-list{
+    float: left;
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #999;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.form-group .cha-box .cha-list:nth-child(1){
+    margin-left: 0;
+}
+.form-group .cha-box .cha-list.cur{
+    background: #2e9831;
+}
+.form-group .input-list{
+    float: left;
+    margin-left: 7px;
+}
+.form-group .input-list-ling{
+    margin-left: 0;
+}
+.form-group .input-list span{
+    float: left;
+    line-height: 33px;
+    margin: 0 3px;
+}
+.form-group input[type='checkbox']{
+    float: left;
+    margin-top: 9px;
+}
+.form-group label{float: left;line-height: 33px;margin-left: 3px}
+.form-group .form-list .form-name1{
+    float: left;
+    margin-left: 10px;
+    line-height: 33px;
+}
+.form-group .tip-text{
+    color: #FF0301;
+    line-height: 33px;
+    margin-left: 5px;
+}
+.form-group .form-checklist{
+    float: left;
+    margin-left: 3px;
+}
+.form-group .form-checklist:nth-child(1){
+    margin-left: 0;
+}
+.input-120ling{
+    margin-left: 5px;
+}

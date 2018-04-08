@@ -1,0 +1,125 @@
+.main-box{
+    height: 636px;
+    position: relative;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.main-box .main-title{
+    font-size: 14px;
+    color: #333;
+}
+.main-box .main-lists{
+    overflow: hidden;
+}
+.main-lists .main-list{
+    width: 240px;
+    height: 180px;
+    background: #E6E6E6;
+    margin-top: 14px;
+    float: left;
+    margin-left: 30px;
+}
+.main-lists .main-list:nth-child(1),.main-lists .main-list:nth-child(4){
+    margin-left: 0;
+}
+.main-lists .main-list .main-text{
+    font-size: 24px;
+    color: #3579cc;
+    text-align: center;
+    padding-top: 57px;
+}
+.main-lists .main-list .main-text span{
+    color: #ff0000;
+}
+.main-list .main-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: #367BCB;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+/*µ¯´°*/
+.alert-box{
+    position: absolute;
+    top:0;bottom: 0;
+    left: 0;right: 0;
+    margin: auto;
+    width: 400px;
+    height: 215px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #DCDCDC;
+}
+.alert-box .alert-top{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    background: #EEEEEE;
+}
+.alert-box .alert-top .alert-title{
+    font-size: 18px;
+    float: left;
+    line-height: 40px;
+    margin-left: 16px;
+    font-family: 'Microsoft YaHei';
+}
+.alert-box .alert-top .alert-close{
+    cursor: pointer;
+    float: right;
+    margin-top: 12px;
+    margin-right: 14px;
+}
+.alert-box .alert-content{
+    height: 93px;
+    margin-top: 32px;
+    margin-left: 52px;
+    overflow: hidden;
+}
+.alert-box .alert-content .alert-warning{
+    float: left;
+    margin-top: 5px;
+}
+.alert-box .alert-content .warning-text{
+    float: left;
+    font-size: 16px;
+    display: inline-block;
+    width: 260px;
+    margin-left: 8px;
+    line-height: 30px;
+}
+.alert-box .alert-btns{
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background: #EEEEEE;
+}
+.alert-btns .alert-btnlist{
+    width: 70px;
+    height: 30px;
+    border: 1px solid #2FAB49;
+    font-size: 16px;
+    color: #2FAB49;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.alert-btns .alert-btnlist.cur{
+    background: #2FAB49;
+    color: #fff;
+}
+.alert-btns .alert-btnlist:nth-child(1){
+    margin-left: 110px;
+}
+.alert-btns .alert-btnlist:nth-child(2){
+    margin-left: 35px;
+}

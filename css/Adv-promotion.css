@@ -1,0 +1,44 @@
+.main-title{display: none}
+.form-group .form-name{
+    margin-right: 18px!important;
+}
+.select-box #city-170,.select-box #area-130{
+    padding: 0 10px;
+    color: #999;
+    font-size: 12px;
+    font-family: 'SimSun';
+}
+.select-box #city-170{
+    width: 160px;
+}
+.select-box #area-130{
+    margin-left: 10px;
+    width: 110px;
+}
+#city-detail{
+    width: 270px;
+    height: 80px;
+    padding:10px 10px;
+    resize: none;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.form-group .fee-text{
+    color: #333;
+    line-height: 30px;
+    font-size: 14px;
+}
+.form-group input[type='date']{
+    width: 133px;
+}
+.form-box{
+    overflow: hidden;
+}
+.form-left{
+    float: left;
+}
+.form-right{
+    float: right;
+    margin-top: 18px;
+    margin-right: 80px;
+}

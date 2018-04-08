@@ -1,0 +1,105 @@
+.main-title{
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.bus-box{
+    width: 724px;
+    margin-left: 50px;
+}
+.bus-box .bus-title{
+    font-size: 18px;
+    color: #333;
+    margin-top: 44px;
+}
+.bus-box .bus-detail .bus-btn{
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+}
+.bus-box .bus-detail .bus-btn .bus-img{
+    float: left;
+}
+.bus-box .bus-detail .bus-btn .bus-text{
+    float: left;
+    margin-left: 5px;
+    line-height: 12px;
+    color: #999999;
+}
+/*table*/
+table, table tbody {
+    width: 722px;
+    background: #bfcfe1;
+    margin-top: 10px;
+}
+table thead {
+    width: 100%;
+    height: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+}
+table thead tr,table thead tr th {
+    height: 30px;
+}
+table tbody tr {
+    border-bottom: 4px solid #BDD0E1;
+}
+table tbody tr, table tbody tr td {
+    background: #FDF5E5;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    line-height: 50px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+table tbody tr td span {
+    cursor: pointer;
+}
+table tbody tr td input{
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+td:nth-child(1){
+    width:65px;
+}
+td:nth-child(2){
+    width: 75px;
+}
+td:nth-child(3){
+    width: 85px;
+}
+td:nth-child(4){
+    width: 105px;
+}
+td:nth-child(5){
+    width: 105px;
+}
+td:nth-child(6){
+    width: 140px;
+}
+td:nth-child(7){
+    width: 90px;
+}
+.confirm-btn{
+    width: 88px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    background: #3579cc;
+    margin: 0 auto;
+    margin-top: 50px;
+}

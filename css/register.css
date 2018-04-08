@@ -1,0 +1,286 @@
+body{background: #EFF3F6}
+body,html{
+    min-height: 100%;
+}
+/*main*/
+.main-box{
+    width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+}
+.main-box .main-inner-box{
+    margin-left: 118px;
+    padding-top:60px;
+}
+.main-box .main-title{
+    color: #333;
+    font-size: 20px;
+}
+.main-box .forget-passtype{
+    width: 640px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 12px;
+    background: url("../images/zc1.png") no-repeat;
+}
+.main-box .forget-passtype .passtype-list{
+    width:25%;
+    height:38px;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-family: 'SimSun';
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.main-box .forget-passtype .passtype-list.cur{
+    color: #fff;
+}
+.register-form{
+    display: none;
+}
+.register-form .form-group{
+    margin-left: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.register-form .form-group:nth-child(1){
+    margin-top:45px;
+}
+.register-form .form-group .form-left{
+    width:90px;
+    height: 30px;
+    float: left;
+}
+.register-form .form-group .form-left .form-img,.form-detail{
+    float: left;
+}
+.register-form .form-group .form-left .form-img img{
+    margin-top: 8px;
+}
+.form-left .form-detail{
+    margin-left: 8px;
+    color: #333;
+    font-size: 14px;
+    font-family: 'SimSun';
+    line-height: 30px;
+}
+.form-group .form-input{
+    width: 300px;
+    float: left;
+    margin-left:15px;
+}
+.form-group .form-input input{
+    width: 280px;
+    padding: 0 10px;
+    height: 30px;
+    outline: none;
+}
+input::-webkit-input-placeholder{
+    font-family: 'SimSun';
+    color: #999;
+    font-size: 12px;
+}
+.form-group .form-tip,.form-group1 .form-tip{
+    float: left;
+    margin-left:10px;
+    color: #333;
+    font-size: 12px;
+    font-family: 'SimSun';
+    line-height: 30px;
+}
+.user-detail{
+    letter-spacing: 3px;
+}
+.argee-box{
+    margin-left:155px;
+    margin-top: 14px;
+}
+.argee-box label{
+    margin-left:3px;
+}
+.argee-box label a{
+    color: #42B748;
+}
+.register-btn{
+    width: 200px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #ff932a;
+    text-align: center;
+    line-height: 44px;
+}
+.register-btn a{
+    font-size: 18px;
+    color: #fff;
+}
+/*2*/
+.info-box{
+    margin-left: 70px;
+}
+.info-box .info-title{
+    margin-top: 45px;
+    color: #333;
+    font-size: 20px;
+}
+.info-box .contact-title{
+    margin-top: 14px!important;
+}
+.info-box .form-group1{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.info-box .form-group1 .form-name{
+    width: 120px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    font-family: 'SimSun';
+    float: left;
+}
+.info-box .form-group1 input[type='text'],.info-box .form-group1 input[type='tel']{
+    float: left;
+    padding: 0 10px;
+    width: 280px;
+    height: 30px;
+}
+.form-right{
+    width: 260px;
+    float: left;
+}
+.form-right1{
+    width: 310px;
+    float: left;
+}
+.form-choseimg{
+    overflow: hidden;
+}
+.form-choseimg .add-btn{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.form-choseimg .add-btn:nth-child(1){
+    margin-left: 0;
+}
+input[type='file']{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.choseimg-detail p{
+    color: #999;
+    font-size: 12px;
+    font-family: 'SimSun';
+    margin-top: 8px;
+}
+.choseimg-detail p:nth-child(1){
+    margin-top: 10px;
+    color: #42B747;
+}
+select{
+    width: 130px;
+    height: 30px;
+    color: #999;
+    font-size: 12px;
+    font-family: 'SimSun';
+}
+select#city1{
+    margin-left: 40px;
+}
+.check-out{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+}
+.check-out .check-box{
+    width: 90px;
+    float: left;
+}
+.next-btn{
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    background: #ff9329;
+    border-radius:5px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.next-btn a{
+    font-size: 18px;
+    color: #fff;
+}
+/*3*/
+.emial-text{
+    width: 640px;
+    margin-top: 70px;
+    font-size: 14px;
+    color: #333333;
+    line-height:20px;
+}
+.emial-text div{
+    text-indent: 28px;
+}
+.emial-text div a{
+    color: #44b549;
+}
+.register-form1{
+    width: 704px;
+}
+.register-form1 .form-group{
+    overflow: hidden;
+}
+.register-form1 .form-name{
+    text-align: right;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    font-family: 'SimSun';
+    float: left;
+    margin-right: 10px;
+}
+.register-form input[type='email']{
+    float: left;
+    padding: 0 10px;
+    width: 280px;
+    height: 30px;
+}
+.register-form1 .form-tip{
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+}
+input::-webkit-input-placeholder{
+    font-family: 'SimSun';
+    color: #999;
+    font-size: 12px;
+}
+.yzm-btn{
+    width: 88px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.yzm-btn,#upemail{
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+    background: #3579cc;
+}

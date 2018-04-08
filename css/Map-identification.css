@@ -1,0 +1,64 @@
+.main-title{
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.map-box {
+    width: 724px;
+    margin-left: 50px;
+}
+.map-box .map-title{
+    font-size: 18px;
+    color: #333;
+    margin-top: 44px;
+}
+.form-group{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.form-group .form-name {
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    font-family: 'SimSun';
+    float: left;
+}
+.form-group input[type='text']{
+    float: left;
+    padding: 0 10px;
+    width: 280px;
+    height: 30px;
+    outline: none;
+}
+.map-img{
+    margin-top: 20px;
+    width: 502px;
+    height: 342px;
+    border: 1px solid #999;
+}
+.submit-btn{
+    width: 196px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.submit-btn .btn-list{
+    width: 88px;
+    height: 30px;
+    border-radius: 5px;
+    background: #3579cc;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+}
+.submit-btn .btn-list:nth-child(2){
+    margin-left: 20px;
+}

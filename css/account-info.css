@@ -1,0 +1,70 @@
+.main-title{
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.info-box{
+    margin-top: 44px;
+    margin-left: 44px;
+}
+.info-box .info-title{
+    font-size: 18px;
+    color: #333;
+}
+.form-group{
+    overflow: hidden;
+}
+.form-group .form-name,.form-group .form-name1{
+    width: 100px;
+    text-align:left;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    font-family: 'SimSun';
+    float: left;
+    margin-right: 10px;
+}
+.form-group .form-name1{
+    width: 90px!important;
+}
+.input-110,.input-75,.input-170,.input-200{
+    padding: 0 10px;
+    height: 28px;
+    outline: none;
+}
+.input-110{width: 90px}
+.input-75{width: 55px}
+.input-170{width: 150px}
+.input-200{width: 180px}
+.form-group span:nth-child(2){
+    line-height: 30px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.form-group:nth-child(1){
+    margin-top:18px;
+}
+form .submit-btn{
+    width: 88px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #347ACB;
+    margin-left: 115px;
+    margin-top: 80px;
+}
+.form-group input[type='email']{
+    float: left;
+}
+.form-tip{
+    float: left;
+    margin-left: 10px;
+}

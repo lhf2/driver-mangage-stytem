@@ -1,0 +1,144 @@
+.main-title{
+    margin-top: 13px;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.main-title a{
+    color: #3579cc;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.bus-box {
+    width: 724px;
+    margin-left: 50px;
+}
+.bus-box .bus-title{
+    font-size: 18px;
+    color: #333;
+    margin-top: 44px;
+}
+.bus-box .bus-detail1 .bus-btn1{
+    overflow: hidden;
+    cursor: pointer;
+    float: right;
+}
+.bus-box .bus-detail1 .bus-btn1 .bus-img{
+    float: left;
+}
+.bus-box .bus-detail1 .bus-btn1 .bus-text{
+    float: left;
+    margin-left: 5px;
+    line-height: 12px;
+    color: #999999;
+}
+.bus-box .bus-detail1{
+    overflow: hidden;
+    color: #333;
+    font-size: 12px;
+    font-family: 'SimSun';
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.bus-box .bus-detail1 .edit-input{
+    width: 50px;
+    color: #333;
+    font-size: 12px;
+    font-family: 'SimSun';
+    border: 0;
+    outline: none;
+}
+.bus-box .bus-detail1 .bus-num,.bus-box .bus-detail1 .bus-route{
+    float: left;
+}
+/*table*/
+table, table tbody {
+    width: 722px;
+    background: #bfcfe1;
+    margin-top: 10px;
+}
+table thead {
+    width: 100%;
+    height: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+}
+table thead tr,table thead tr th {
+    height: 30px;
+}
+table tbody tr {
+    border-bottom: 4px solid #BDD0E1;
+}
+table tbody tr, table tbody tr td {
+    background: #FDF5E5;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+table tbody tr td span {
+    cursor: pointer;
+}
+table tbody tr td input{
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    outline: none;
+}
+.confirm-btn{
+    width: 88px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    background: #3579cc;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/*table-ling*/
+.table-ling{
+    padding-bottom: 12px;
+}
+.table-ling input{
+    border: 0;outline: none;
+}
+.table-ling thead tr th{
+    border: 1px solid #999999;
+    line-height: 30px;
+}
+.table-ling tbody tr td{
+    background: #fff;
+    border: 1px solid #999999;
+    height: 40px;
+}
+.table-ling tbody input{
+    line-height: 35px;
+}
+thead .edit-table150{
+    background: #BFCFE1;
+    text-align: center;
+    width: 150px;height: 30px;
+}
+thead .edit-table110{
+    width: 110px;height: 30px;
+}
+thead .edit-table190{
+    width: 190px;height: 30px;
+}
+.table-ling tbody tr{
+    border-bottom: 0!important;
+}
+#null-emty{
+    border: 0;
+}
+#null-emty td{
+    background:#fff;
+    font-size:20px;
+    line-height: 60px;
+}

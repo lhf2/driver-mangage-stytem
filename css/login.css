@@ -1,0 +1,151 @@
+body{
+    overflow: hidden;
+    background: url("../images/bg.png") no-repeat;
+    background-size:100%;
+}
+/*top开始*/
+.top-outbox{
+    width: 100%;
+    height: 60px;
+    background: #000B18;
+    overflow: hidden;
+}
+.top-box{
+    width: 1100px;
+    margin:0 auto;
+}
+.top-box .top-logo{
+    display: table-cell;
+    width: 40px;
+    height: 60px;
+    vertical-align: middle;
+}
+.top-box .top-text{
+    display: table-cell;
+    width: 175px;
+    height: 60px;
+    vertical-align: middle;
+}
+.top-box .top-logo img,.top-box .top-text img{
+    display: block;
+    font-size: 0;
+    vertical-align: middle;
+}
+.top-box .top-text img{
+    margin-left: 15px;
+}
+/*main开始*/
+.main-box{
+    width: 540px;
+    height: 219px;
+    padding: 50px 58px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("../images/ty.png") no-repeat;
+    /*margin-top: 100px;*/
+}
+/*左侧*/
+.main-box .main-left{
+    float: left;
+    width: 340px;
+}
+.main-box .main-left .main-tip{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'SimSun';
+    overflow: hidden;
+}
+.main-tip .frist-login{
+    color: #333;
+    float: left;
+}
+.main-tip .register-btn a{
+    color: #009966;
+    float: right;
+}
+.main-box .main-left form{
+    margin-top: 10px;
+}
+.person-box,.pass-box{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #999999;
+}
+.pass-box{
+    border-top: 0;
+}
+.person-img,.pass-img{
+    height: 24px;
+    position: absolute;
+    left: 20px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+}
+.main-box .main-left form input[type='text'],.main-box .main-left form input[type='password']{
+    width: 274px;
+    margin-left: 66px;
+    height: 100%;
+    border: 0;
+}
+.main-box .main-left form input:nth-child(2){
+    border-top: 0;
+    outline:none;
+}
+.main-box .main-left form input::-webkit-input-placeholder{
+    color: #999999;
+    font-family: 'SimSun';
+}
+.main-box .main-left form .save-forget{
+    width: 100%;
+    margin-top: 10px;
+}
+.save-forget label{
+    font-size: 12px;
+    color: #333;
+    font-family: 'SimSun';
+}
+.save-forget .forget-btn a{
+    float: right;
+    font-size: 12px;
+    color: #009966;
+}
+.login-btn{
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+    color: #fff;
+    background: #009966;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+    letter-spacing:8px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+/*右侧*/
+.main-box .main-right{
+    float: right;
+}
+.main-box .main-right .ewm-img{
+    margin-top: 20px;
+}
+.main-box .main-right .ewm-img img{
+    display: block;
+    font-size: 0;
+}
+.main-right .ewm-text{
+    width: 134px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    font-family: 'SimSun';
+    margin-top: 10px;
+}
