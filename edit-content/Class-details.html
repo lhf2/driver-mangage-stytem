@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班型管理</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/School-bulletin.css"/>
+    <link rel="stylesheet" href="../css/Class-details.css"/>
+</head>
+<body>
+<div class="main-title">当前位置：班型详情-添加班型<a href='../edit-content/edit-right.html'>返回首页</a></div>
+<div class="bull-table">
+    <ul class="bull-top">
+        <li class="bull-top-list cur">添加班型</li>
+        <li class="bull-top-list">班型管理</li>
+    </ul>
+    <div class="panel-body" style="display: block">
+        <form action="" method="post">
+            <div class="form-group">
+                <div class="form-name">班型图片：</div>
+                <input type="text" class="input-100"/>
+                <div class="choseimg-btn">
+                    <span class="choseimg-text">上传图片</span>
+                    <span class="chose-img">
+                        <img src="../images/next.png" alt=""/>
+                    </span>
+                    <input type="file" accept="image/*"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>班型名称：</div>
+                <input type="text" placeholder="填写班型，如：周末班"/>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>驾校类型：</div>
+                <select name="" id="">
+                    <option value="1">C1</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>班型特色：</div>
+                <ul class="cha-box">
+                    <li class="cha-list cur">一人一车</li>
+                    <li class="cha-list">性价比高</li>
+                    <li class="cha-list">星际教练</li>
+                    <li class="cha-list">快速拿本</li>
+                </ul>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>一车人数：</div>
+                <select name="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>训练车型：</div>
+                <input type="text" class="input-120" placeholder="普桑"/>
+            </div>
+            <div class="form-group">
+                <div class="form-name">培训课时：</div>
+                <div class="input-list input-list-ling">
+                    <span>科二：</span>
+                    <input type="text" class="input-42" placeholder="32"/>
+                    <span>小时</span>
+                </div>
+                <div class="input-list">
+                    <span>科三：</span>
+                    <input type="text" class="input-42" placeholder="32"/>
+                    <span>小时</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name">补考费用：</div>
+                <div class="input-list input-list-ling">
+                    <span>科一：</span>
+                    <input type="text" class="input-42" placeholder="50"/>
+                    <span>元</span>
+                </div>
+                <div class="input-list">
+                    <span>科二：</span>
+                    <input type="text" class="input-42" placeholder="100"/>
+                    <span>元</span>
+                </div>
+                <div class="input-list">
+                    <span>科三：</span>
+                    <input type="text" class="input-42" placeholder="100"/>
+                    <span>元</span>
+                </div>
+                <div class="input-list">
+                    <span>科四：</span>
+                    <input type="text" class="input-42" placeholder="50"/>
+                    <span>元</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name">模拟器费用：</div>
+                <div class="input-list input-list-ling">
+                    <span>科二：</span>
+                    <input type="text" class="input-42" placeholder="40"/>
+                    <span>元</span>
+                </div>
+                <div class="input-list">
+                    <span>科三：</span>
+                    <input type="text" class="input-42" placeholder="40"/>
+                    <span>元</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-list">
+                    <div class="form-name"><span>*</span>价格：</div>
+                    <input type="text" class="input-120" placeholder="￥3000"/>
+                </div>
+                <div class="form-list">
+                    <div class="form-name1">浮动价</div>
+                    <input type="checkbox"/>
+                    <input type="text" class="input-120" placeholder="如：500元"/>
+                    <span class="tip-text">*优惠价格的浮动范围</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>付款方式：</div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fk-type1"/>
+                    <label for="fk-type1">在线全款</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fk-type2"/>
+                    <label for="fk-type2">到校付款</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fk-type3"/>
+                    <label for="fk-type3">在线首付</label>
+                    <input type="text" class="input-120 input-120ling" placeholder="如：600元"/>
+                    <span class="tip-text">*首付价格</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name"><span>*</span>费用明细：</div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fy-type1"/>
+                    <label for="fy-type1">培训费</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fy-type2"/>
+                    <label for="fy-type2">考试费</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fy-type3"/>
+                    <label for="fy-type3">体验费</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fy-type4"/>
+                    <label for="fy-type4">IC卡费</label>
+                </div>
+                <div class="form-checklist">
+                    <input type="checkbox" id="fy-type5"/>
+                    <label for="fy-type5">驾驶证工本费</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-name">活动价：</div>
+                <input type="checkbox"/>
+                <input type="text" class="input-120" placeholder="如：500元"/>
+                <span class="tip-text">*活动时优惠的价格</span>
+            </div>
+            <div class="form-group">
+                <div class="form-name">开始时间：</div>
+                <input type="date" class="input-180"/>
+            </div>
+            <div class="form-group">
+                <div class="form-name">结束时间：</div>
+                <input type="date" class="input-180"/>
+            </div>
+            <div class="submit-btn">提交</div>
+        </form>
+    </div>
+    <div class="panel-body">
+        <table>
+            <thead>
+            <tr>
+                <th>课程名称</th>
+                <th>驾照级别</th>
+                <th>训练车型</th>
+                <th>训练时间</th>
+                <th>价格</th>
+                <th class="sale-text">活动价</th>
+                <th class="sale-act">促销</th>
+                <th>添加时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>平日班</td>
+                <td>C1</td>
+                <td>普桑</td>
+                <td>周一到周五</td>
+                <td>4600</td>
+                <td class="sale-text">4100</td>
+                <td class="sale-act">否</td>
+                <td>2016-08-07</td>
+                <td>
+                    <span>编辑</span>&nbsp;|&nbsp;<span>移除</span>
+                </td>
+            </tr>
+            <tr>
+                <td>平日班</td>
+                <td>C1</td>
+                <td>普桑</td>
+                <td>周一到周五</td>
+                <td>4600</td>
+                <td class="sale-text">4100</td>
+                <td class="sale-act">否</td>
+                <td>2016-08-07</td>
+                <td>
+                    <span>编辑</span>&nbsp;|&nbsp;<span>移除</span>
+                </td>
+            </tr>
+            <tr>
+                <td>平日班</td>
+                <td>C1</td>
+                <td>普桑</td>
+                <td>周一到周五</td>
+                <td>4600</td>
+                <td class="sale-text">4100</td>
+                <td class="sale-act">否</td>
+                <td>2016-08-07</td>
+                <td>
+                    <span>编辑</span>&nbsp;|&nbsp;<span>移除</span>
+                </td>
+            </tr>
+            <tr>
+                <td>平日班</td>
+                <td>C1</td>
+                <td>普桑</td>
+                <td>周一到周五</td>
+                <td>4600</td>
+                <td class="sale-text">4100</td>
+                <td class="sale-act">否</td>
+                <td>2016-08-07</td>
+                <td>
+                    <span>编辑</span>&nbsp;|&nbsp;<span>移除</span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/iframe.js"></script>
+</body>
+</html>
