@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评论管理</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/jquery.sinaEmotion.css"/>
+    <link rel="stylesheet" href="../css/user-management.css"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+</head>
+<body>
+<div class="main-title">当前位置：评论管理<a href='../edit-content/edit-right.html'>返回首页</a></div>
+<div class="user-box">
+    <div class="user-top">
+        <div class="user-title">评论管理</div>
+        <div class="user-search">
+            <select name="" id="search-box">
+                <option value="1">姓名</option>
+                <option value="2">时间</option>
+            </select>
+            <div class="search-hide" style="display: block">
+                <input type="text" placeholder="请输入查找姓名"/>
+                <span class="search-btn">
+                    <img src="../images/search1.png" alt=""/>
+                </span>
+            </div>
+            <div class="search-hide">
+                <span class="search-time">起止时间：</span>
+                <input type="date"/>-<input type="date"/>
+                <span class="search-btn">
+                    <img src="../images/search1.png" alt=""/>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>用户名</th>
+                <th>留言内容</th>
+                <th>星级评价</th>
+                <th>发布时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>8022</td>
+                <td>张继科</td>
+                <td>科三过了，洪荒之力果然好用</td>
+                <td>
+                    <div class="review-img">
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                    </div>
+                </td>
+                <td>2016-08-28</td>
+                <td>
+                    <span>查看</span>&nbsp;|&nbsp;<span class="stay-back">回复</span>
+                </td>
+            </tr>
+            <tr>
+                <td>8022</td>
+                <td>张继科</td>
+                <td>科三过了，洪荒之力果然好用</td>
+                <td>
+                    <div class="review-img">
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                    </div>
+                </td>
+                <td>2016-08-28</td>
+                <td>
+                    <span>查看</span>&nbsp;|&nbsp;<span class="stay-back">回复</span>
+                </td>
+            </tr>
+            <tr>
+                <td>8022</td>
+                <td>张继科</td>
+                <td>科三过了，洪荒之力果然好用</td>
+                <td>
+                    <div class="review-img">
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                    </div>
+                </td>
+                <td>2016-08-28</td>
+                <td>
+                    <span>查看</span>&nbsp;|&nbsp;<span class="stay-back">回复</span>
+                </td>
+            </tr>
+            <tr>
+                <td>8022</td>
+                <td>张继科</td>
+                <td>科三过了，洪荒之力果然好用</td>
+                <td>
+                    <div class="review-img">
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                        <img src="../images/star.png" alt=""/>
+                    </div>
+                </td>
+                <td>2016-08-28</td>
+                <td>
+                    <span>查看</span>&nbsp;|&nbsp;<span class="stay-back">回复</span>
+                </td>
+            </tr>
+            <!--<tr>
+                <td>
+                    <input type="checkbox"/>
+                </td>
+                <td><input type="text" value="C1/周一-周日"/></td>
+                <td><input type="text" value="张三"/></td>
+                <td><input type="text" value="18236712839"/></td>
+                <td><input type="text" value="男"/></td>
+                <td><input type="text" value="石景山"/></td>
+                <td><input type="text" value="2016-08-28"/></td>
+                <td><input type="text" value="未支付"/></td>
+                <td><input type="text" value="编辑"/></td>
+            </tr>-->
+            </tbody>
+        </table>
+        <div class="page-box">
+            <div class="page-num">
+                <div class="page-frist">首页</div>
+                <div class="tcdPageCode"></div>
+                <div class="page-last">末页</div>
+            </div>
+        </div>
+    </div>
+    <!--聊天-->
+    <div class="chat-box">
+        <div class="chat-top">
+            <textarea name="" id="message">您好，我们驾校有班车接送，你也可以查看公交路线</textarea>
+        </div>
+        <div class="chat-bottom">
+            <div class="chat-emo" id="face">
+                <img src="../images/emo.png" alt=""/>
+            </div>
+            <div class="send-btn">发送</div>
+            <div class="chat-detail">您还可以输入<span>23</span>字，按shift+enter键换行</div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/sinaFaceAndEffec.js"></script>
+<script src="../js/jquery.page.js"></script>
+<script src="../js/iframe.js"></script>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:100,
+        current:1,
+        backFn:function(p){
+            //console.log(p);
+        }
+    });
+</script>
+</body>
+</html>

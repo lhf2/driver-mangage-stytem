@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驾校公告</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/School-bulletin.css"/>
+    <link rel="stylesheet" href="../css/Adv-promotion.css"/>
+    <link rel="stylesheet" href="../css/page.css"/>
+</head>
+<body>
+<div class="main-title" style="display: block">当前位置：推广-广告申请<a href='../edit-content/edit-right.html'>返回首页</a></div>
+<div class="main-title">当前位置：推广-广告列表管理<a href='../edit-content/edit-right.html'>返回首页</a></div>
+<div class="bull-table">
+    <ul class="bull-top">
+        <li class="bull-top-list cur">广告申请</li>
+        <li class="bull-top-list">广告列表管理</li>
+    </ul>
+    <div class="panel-body" style="display: block">
+        <form action="" method="post">
+            <div class="form-box">
+                <div class="form-left">
+                    <div class="form-group">
+                        <div class="form-name">推广位置：</div>
+                        <select name="" id="">
+                            <option value="1">栏目置顶</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-name">投放城市：</div>
+                        <div class="select-box">
+                            <select name="" id="city-170">
+                                <option value="1">请选择省/直辖市</option>
+                            </select>
+                            <select name="" id="area-130">
+                                <option value="1">请选择市/区</option>
+                            </select>
+                        </div>
+                        <textarea name="" id="city-detail" placeholder="说明"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-name">费&nbsp;&nbsp;用：</div>
+                        <span class="fee-text">免费</span>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-name">申请期限：</div>
+                        <div class="date-box">
+                            <input type="date" placeholder="开始时间"/>
+                            &nbsp;到&nbsp;
+                            <input type="date" placeholder="结束时间"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-name">联系人员：</div>
+                        <input type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-name">联系电话：</div>
+                        <input type="tel"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="preview-effect"/>
+                        <label for="preview-effect">预览效果</label>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <img src="../images/eff.png" alt=""/>
+                </div>
+            </div>
+            <div class="submit-btn">确定</div>
+        </form>
+    </div>
+    <div class="panel-body">
+        <table>
+            <thead>
+            <tr>
+                <th>序号</th>
+                <th>位置</th>
+                <th>提交时间</th>
+                <th>提交人</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>003</td>
+                <td>驾校栏置顶</td>
+                <td>2016-08-02</td>
+                <td>张三</td>
+                <td>待发布</td>
+                <td>查看</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>驾校栏置顶</td>
+                <td>2016-08-02</td>
+                <td>张三</td>
+                <td>开始</td>
+                <td>查看</td>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>驾校栏置顶</td>
+                <td>2016-08-02</td>
+                <td>张三</td>
+                <td>结束</td>
+                <td>查看</td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="page-box">
+            <div class="page-num">
+                <div class="page-frist">首页</div>
+                <div class="tcdPageCode"></div>
+                <div class="page-last">末页</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/jquery.page.js"></script>
+<script src="../js/iframe.js"></script>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:100,
+        current:1,
+        backFn:function(p){
+            //console.log(p);
+        }
+    });
+</script>
+</body>
+</html>
