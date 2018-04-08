@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册账号</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/login-all.css"/>
+    <link rel="stylesheet" href="../css/register.css"/>
+</head>
+<body>
+<!--top-->
+<div class="top-outbox">
+    <div class="top-box">
+        <div class="top-left">
+            <div class="top-logo">
+                <img src="../images/logo.png" alt=""/>
+            </div>
+            <div class="top-text">
+                <img src="../images/logo-text.png" alt=""/>
+            </div>
+        </div>
+        <div class="top-right">
+            <a href="javascript:;">已有账号？请登录</a>
+        </div>
+    </div>
+</div>
+<!--main-->
+<div class="main-box">
+    <div class="main-inner-box">
+        <div class="main-title">注册账号：</div>
+        <ul class="forget-passtype">
+            <li class="passtype-list cur">1.基本信息</li>
+            <li class="passtype-list">2.填写资料</li>
+            <li class="passtype-list">3.验证邮箱</li>
+            <li class="passtype-list">4.完成注册</li>
+        </ul>
+        <!--基本信息-->
+        <form action="" method="post" class="register-form" style="display:block">
+            <div class="form-group">
+                <div class="form-left">
+                    <div class="form-img">
+                        <img src="../images/USER.png" alt=""/>
+                    </div>
+                    <span class="form-detail user-detail">用户名：</span>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="请输入用户名"/>
+                </div>
+                <div class="form-tip">
+                    <span>6-20位，由字母、汉字、数字或其组合组成</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-left">
+                    <div class="form-img">
+                        <img src="../images/UNLOCK1.png" alt=""/>
+                    </div>
+                    <span class="form-detail">密&nbsp;&nbsp;码：</span>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="请输入密码"/>
+                </div>
+                <div class="form-tip">
+                    <span>6-20位字母（区分大小写）加数字组成</span>
+                    <span class="tip-img">
+                        <img src="../images/right.png" alt=""/>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-left">
+                    <div class="form-img">
+                       <img src="../images/LOCK1.png" alt=""/>
+                    </div>
+                    <span class="form-detail">确认密码：</span>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="请再次输入密码"/>
+                </div>
+                <div class="form-tip">
+                    <span>两次密码不一致</span>
+                    <span class="tip-img">
+                        <img src="../images/wrong.png" alt=""/>
+                    </span>
+                </div>
+            </div>
+            <div class="argee-box">
+                <input type="checkbox" id="agree"/>
+                <label for="agree">同意<a href="Agreement.html">叮咚学车服务协议</a></label>
+            </div>
+            <div class="register-btn">
+                <a href="javascript:;">注册</a>
+            </div>
+        </form>
+        <!--填写资料-->
+        <form action="" method="post" class="register-form" style="padding-bottom: 80px;">
+            <div class="info-box">
+                <div class="info-title">企业信息:</div>
+                <div class="form-group1">
+                    <div class="form-name">驾校名称：</div>
+                    <input type="text" placeholder="请填写与营业执照一致的合法公司全称"/>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">驾校简称：</div>
+                    <input type="text" placeholder="请填写与营业执照一致的合法公司简称"/>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">营业执照注册号：</div>
+                    <input type="text"/>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">营业执照照片：</div>
+                    <div class="form-right">
+                        <ul class="form-choseimg">
+                            <li class="add-btn">
+                                <img src="../images/add.png" alt=""/>
+                                <input type="file" accept="image/*">
+                            </li>
+                            <li class="add-btn">
+                                <img src="../images/add.png" alt=""/>
+                                <input type="file" accept="image/*">
+                            </li>
+                            <li class="add-btn">
+                                <img src="../images/add.png" alt=""/>
+                                <input type="file" accept="image/*">
+                            </li>
+                        </ul>
+                        <div class="choseimg-detail">
+                            <p>上传图片实例</p>
+                            <p>1.2M以内，JPG/PNG格式的图片</p>
+                            <p>2.我司资质验证系统已与工商部门联网，请勿提供虚假证件</p>
+                            <p>3.上传道路运输经营许可证和营业执照</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--联系方式-->
+            <div class="info-box">
+                <div class="info-title contact-title">联系方式:</div>
+                <div class="form-group1">
+                    <div class="form-name">联系人：</div>
+                    <input type="text"/>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">手机号码：</div>
+                    <input type="tel" placeholder="请填写可以联系您的电话"/>
+                    <div class="form-tip">
+                        <span>您已注册过此号码</span>
+                        <span class="tip-img">
+                            <img src="../images/wrong.png" alt=""/>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">电子邮箱：</div>
+                    <input type="tel" placeholder="请填写有效的电子邮箱，用于接收平台审核通知等"/>
+                    <div class="form-tip">
+                        <span>您已注册过此邮箱</span>
+                        <span class="tip-img">
+                            <img src="../images/wrong.png" alt=""/>
+                        </span>
+                    </div>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">联系地址：</div>
+                    <div class="form-right1">
+                        <select name="city-name" id="city">
+                            <option value="1">请选择省/直辖市</option>
+                            <option value="1">北京</option>
+                            <option value="1">上海</option>
+                        </select>
+                        <select name="city-name" id="city1">
+                            <option value="1">请选择市/区</option>
+                            <option value="1">北京</option>
+                            <option value="1">上海</option>
+                        </select>
+                        <input type="text" placeholder="请填写有效的地址以便联系您及回寄纸质协议使用" style="margin-top: 10px"/>
+                    </div>
+                </div>
+                <div class="form-group1">
+                    <div class="form-name">合作类型：</div>
+                    <div class="check-out">
+                        <div class="check-box">
+                            <input type="checkbox" id="type1"/>
+                            <label for="type1">认证</label>
+                        </div>
+                        <div class="check-box">
+                            <input type="checkbox" id="type2"/>
+                            <label for="type2">授权代理</label>
+                        </div>
+                    </div>
+                    <div class="form-tip">
+                        <span>您只能选择一种类型</span>
+                        <span class="tip-img">
+                            <img src="../images/wrong.png" alt=""/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="next-btn"><a href="javascript:;">下一步</a></div>
+        </form>
+        <!--验证邮箱-->
+        <div class="register-form register-form1">
+            <div class="form-group">
+                <input id="userId" type="hidden" name="id" value="${u.id}">
+                <div class="form-name">电子邮箱：</div>
+                <input id="uemail" type="email" name="uemail" value="626712309@qq.com" class="input-170">
+                <div class="form-tip" id="tipeumail">
+                    <span class="tip-txt">您已注册过此邮箱</span>
+                        <span class="tip-img">
+                            <img src="../images/wrong.png" alt=""/>
+                        </span>
+                </div>
+            </div>
+            <div class="yzm-btn">
+                <input type="button" id="upemail" value="重新发送"/>
+            </div>
+        </div>
+        <div class="register-form">
+            <div class="emial-text">
+                您好：<div>感谢您的注册！确认邮件已发送至您的邮箱132565652@163.com，请点击一下连接激活帐号<a>http://www.kaoben.net/index.php?m=admin&c=index&pc-hash=hAgp32.</a>如果以上连接无法点击，请将上面的地址复制到您的浏览器打开进入叮咚学车平台（该链接在48小时内有效，48小时后需重新登陆。</div>
+            </div>
+            <div class="emial-text">
+                没有收到邮件？</br>
+                1.请检查邮箱地址是否正确，或者返回重新填写。</br>
+                2.检查一下您的邮件垃圾箱。</br>
+                3.若仍未收到确认，请尝试重新发送。。</div>
+        </div>
+        <!--完成注册-->
+        <div class="register-form">
+            <div class="emial-text">
+                您好：<div>恭喜您完成注册！</div><div>确认邮件已发送至您的邮箱132565652@163.com，请点击一下连接激活帐号<a>http://www.kaoben.net/index.php?m=admin&c=index&pc-hash=hAgp32.</a>如果以上连接无法点击，请将上面的地址复制到您的浏览器打开进入叮咚学车平台（该链接在48小时内有效，48小时后需重新登陆。</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!--bottom-->
+<div class="bottom-box">北京九州新网网络信息有限公司  版权所有 总部地址:北京市海淀区首体南路七号楼</div>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

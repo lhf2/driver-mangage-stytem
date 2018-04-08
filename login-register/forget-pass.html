@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>忘记密码</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/login-all.css"/>
+    <link rel="stylesheet" href="../css/forget-pass.css"/>
+</head>
+<body>
+<!--top-->
+<div class="top-outbox">
+    <div class="top-box">
+        <div class="top-left">
+            <div class="top-logo">
+                <img src="../images/logo.png" alt=""/>
+            </div>
+            <div class="top-text">
+                <img src="../images/logo-text.png" alt=""/>
+            </div>
+        </div>
+        <div class="top-right">
+            <a href="javascript:;">已有账号？请登录</a>
+        </div>
+    </div>
+</div>
+<!--main-->
+<div class="main-box">
+    <div class="main-inner-box">
+        <div class="main-title">忘记密码：</div>
+        <ul class="forget-passtype">
+            <li class="passtype-list cur">1.填写注册账号</li>
+            <li class="passtype-list">2.重置密码</li>
+        </ul>
+        <div class="forget-passhide" style="display: block">
+            <ul class="type-box">
+                <li class="type-list cur">通过手机号找回</li>
+                <li class="type-list">通过邮箱找回</li>
+            </ul>
+            <form action="" method="post" id="phone-pass" class="form-hide" style="display: block">
+                <div class="person-box">
+                    <div class="person-img">
+                        <img src="../images/Person.png" alt=""/>
+                    </div>
+                    <input type="tel" placeholder="请输入手机号"/>
+                </div>
+                <div class="yzm-box">
+                    <input type="text" placeholder="请输入验证码"/>
+                    <div class="yzm-btn">发送验证码</div>
+                    <div class="yzm-time">59s</div>
+                </div>
+            </form>
+            <form action="" method="post" id="email-pass" class="form-hide">
+                <div class="person-box">
+                    <div class="person-img">
+                        <img src="../images/Person.png" alt=""/>
+                    </div>
+                    <input type="email" placeholder="请输入邮箱"/>
+                </div>
+                <div class="yzm-box">
+                    <input type="text" placeholder="请输入验证码"/>
+                    <div class="yzm-btn">发送验证码</div>
+                    <div class="yzm-time">59s</div>
+                </div>
+            </form>
+            <div class="next-btn"><a href="javascript:;">下一步</a></div>
+        </div>
+        <div class="forget-passhide">
+            <div class="new-title">请输入新密码：</div>
+            <form action="" method="post" id="new-pass">
+                <div class="new-passbox">
+                    <div class="person-input">
+                        <div class="person-img">
+                            <img class="lock-pass" src="../images/unlock.png" alt=""/>
+                        </div>
+                        <input type="tel" placeholder="请输入新密码"/>
+                    </div>
+                    <div class="tip-text">
+                        <span>6-20位字母（区分大小写）加数字组成</span>
+                        <span class="tip-img">
+                            <img src="../images/right.png" alt=""/>
+                        </span>
+                    </div>
+                </div>
+                <div class="new-passbox">
+                    <div class="person-input">
+                        <div class="person-img">
+                            <img class="lock-pass" src="../images/lock.png" alt=""/>
+                        </div>
+                        <input type="tel" placeholder="请再次输入新密码"/>
+                    </div>
+                    <div class="tip-text">
+                        <span>两次密码不一致</span>
+                        <span class="tip-img">
+                            <img src="../images/wrong.png" alt=""/>
+                        </span>
+                    </div>
+                </div>
+                <div class="pass-submit">
+                    <div class="pass-complete">
+                        <a href="javascript:;">完成</a>
+                    </div>
+                    <div class="pass-return">
+                        <a href="javascript:;">返回登录</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--bottom-->
+<div class="bottom-box">北京九州新网网络信息有限公司  版权所有 总部地址:北京市海淀区首体南路七号楼</div>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
