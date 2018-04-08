@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班型统计</title>
+    <link rel="stylesheet" href="../css/lhf-base.css"/>
+    <link rel="stylesheet" href="../css/Class-statistics.css"/>
+</head>
+<body>
+<div class="main-title">当前位置：班型统计<a href='../edit-content/edit-right.html'>返回首页</a></div>
+<div class="statistics-box">
+    <div class="statistics-title">班型人数统计</div>
+    <div class="statistics-main">
+        <div class="sta-top">
+            <div class="sta-left">
+                <select name="" id="class-type">
+                    <option value="1">周末班</option>
+                    <option value="2">平日班</option>
+                    <option value="3">暑假班</option>
+                    <option value="4">贵宾班</option>
+                </select>
+                <span class="person-num">人数统计：<i>36</i></span>
+            </div>
+            <div class="sta-right">
+                <select name="" id="data-sel">
+                    <option value="1">最近7天</option>
+                    <option value="2">最近一月</option>
+                    <option value="3">最近两月</option>
+                </select>
+                <span class="date-detail">2016-09-16至2016-09-22</span>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="jqChart"></div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.10.2.min.js"></script>
+<script src="../js/echarts.common.min.js"></script>
+<script src="../js/iframe.js"></script>
+<script lang="javascript" type="text/javascript">
+    var myChart = echarts.init(document.getElementById('jqChart'));
+    var option = {
+        tooltip: {
+            trigger: 'axis'
+        },
+        legend: {
+            data:['周末班','平日班','暑假班','贵宾班']
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: [
+            {
+                type : 'value',
+                max:45,
+                min:0,
+                axisLabel : {
+                    //interval:0,
+                    formatter: '{value} 人'
+                },
+                splitNumber:10
+            }
+        ],
+        yAxis: {
+            type: 'category',
+            boundaryGap: false,
+            data: ['周一','周二','周三','周四','周五','周六','周日']
+        },
+        series: [
+            {
+                name:'周末班',
+                type:'line',
+//                stack: '总量',
+                data:[20, 32, 11, 34, 9, 30, 21]
+            },
+            {
+                name:'平日班',
+                type:'line',
+//                stack: '总量',
+                data:[22, 18, 19, 23, 29, 33, 31]
+            },
+            {
+                name:'暑假班',
+                type:'line',
+//                stack: '总量',
+                data:[15, 23, 21, 14, 19, 33, 41]
+            },
+            {
+                name:'贵宾班',
+                type:'line',
+//                stack: '总量',
+                data:[32, 33, 31, 34, 39, 33, 32]
+            }
+        ]
+    };
+    myChart.setOption(option);
+</script>
+</body>
+</html>
